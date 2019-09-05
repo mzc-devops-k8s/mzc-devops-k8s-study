@@ -8,6 +8,7 @@
 - k8s 네트워킹 이해하기: https://coffeewhale.com/k8s/network/2019/04/19/k8s-network-01/
 - (유튜브) Multi-Cluster Service Meth를 아시나요?: https://youtu.be/wKz59aGuXMA
 - DevOps Korea Meetup, "k8s Basic": https://meetup.devopskorea.org/201908-1/files/2.kubernetes-basic.pdf
+- [번역] 쿠버네티스 네트워킹 이해하기: https://coffeewhale.com/k8s/network/2019/04/19/k8s-network-01/?fbclid=IwAR2900s-9wGuRjfr6RjPssc5aDP2Iiy46NUNQ9N1YCQcNojxGD_1PZQhei8
 
 ## 타 스터디 참고자료
 - 스터디 후기: https://www.reimaginer.me/entry/kubernetes-study-review?fbclid=IwAR1-wXhoqjFAUcYK0JmGnl7e5NIjfblA1bHXk1aVsWgmLeH3WNZV5qnTn20
