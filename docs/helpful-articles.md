@@ -19,3 +19,7 @@
 
 - minikube란?: https://medium.com/@cratios48/minikube-%EC%84%A4%EC%B9%98-%EB%B0%8F-%ED%99%9C%EC%9A%A9-4a63ddbc7fcb
 - Tucker의 goLang 프로그래밍: https://www.youtube.com/channel/UCZp_ftx6UB_32VfVmlS3o_A/videos
+
+## 유틸리티
+
+- kube-ps1 : https://github.com/jonmosco/kube-ps1
