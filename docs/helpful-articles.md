@@ -11,6 +11,7 @@
 - [번역] 쿠버네티스 네트워킹 이해하기: https://coffeewhale.com/k8s/network/2019/04/19/k8s-network-01/?fbclid=IwAR2900s-9wGuRjfr6RjPssc5aDP2Iiy46NUNQ9N1YCQcNojxGD_1PZQhei8
 - Configuring HA Kubernetes cluster on bare metal server with kubeadm : https://medium.com/faun/configuring-ha-kubernetes-cluster-on-bare-metal-servers-with-kubeadm-1-2-1e79f0f7857b
 - 대규모 Kubernetes Cluster 구축기 : https://engineering.linecorp.com/ko/blog/building-large-kubernetes-cluster/?fbclid=IwAR2vqNGk2pcsRVIdJk2s1X5vS09B_hNsMQHQxASd04u7QTrtC-25HZr7Z6o
+- Kubernetes all-in-one : https://github.com/SDSACT/coe-kubernetes
 
 ## 타 스터디 참고자료
 - 스터디 후기: https://www.reimaginer.me/entry/kubernetes-study-review?fbclid=IwAR1-wXhoqjFAUcYK0JmGnl7e5NIjfblA1bHXk1aVsWgmLeH3WNZV5qnTn20
