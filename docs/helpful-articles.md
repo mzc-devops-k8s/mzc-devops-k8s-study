@@ -14,6 +14,7 @@
 - Kubernetes all-in-one : https://github.com/SDSACT/coe-kubernetes
 
 ## 타 스터디 참고자료
+
 - 스터디 후기: https://www.reimaginer.me/entry/kubernetes-study-review?fbclid=IwAR1-wXhoqjFAUcYK0JmGnl7e5NIjfblA1bHXk1aVsWgmLeH3WNZV5qnTn20
 - k8s in Action 후기: https://github.com/sillim-programmer/kubernetes-in-action-study
 
@@ -22,6 +23,7 @@
 - minikube란?: https://medium.com/@cratios48/minikube-%EC%84%A4%EC%B9%98-%EB%B0%8F-%ED%99%9C%EC%9A%A9-4a63ddbc7fcb
 - Tucker의 goLang 프로그래밍: https://www.youtube.com/channel/UCZp_ftx6UB_32VfVmlS3o_A/videos
 - if KAKAO 발표 영상(mp4 주의) : https://mk.kakaocdn.net/dn/if-kakao/conf2019/conf_video_2019/1_101_01_m1.mp4
+- How kubernetes works : https://www.youtube.com/watch?v=daVUONZqn88
 
 ## 유틸리티
 
