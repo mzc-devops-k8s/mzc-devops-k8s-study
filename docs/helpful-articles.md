@@ -12,6 +12,7 @@
 - Configuring HA Kubernetes cluster on bare metal server with kubeadm : https://medium.com/faun/configuring-ha-kubernetes-cluster-on-bare-metal-servers-with-kubeadm-1-2-1e79f0f7857b
 - 대규모 Kubernetes Cluster 구축기 : https://engineering.linecorp.com/ko/blog/building-large-kubernetes-cluster/?fbclid=IwAR2vqNGk2pcsRVIdJk2s1X5vS09B_hNsMQHQxASd04u7QTrtC-25HZr7Z6o
 - Kubernetes all-in-one : https://github.com/SDSACT/coe-kubernetes
+- kubernetes architecture model: https://qiita.com/yosshi_/items/2db0a0e66a16711bfe5f?fbclid=IwAR2vfWuzGw0hP0rdJxM233WAU5MeV2P3N2qvQ3B0XsECvBmUw-SDRxwtUF0
 
 ## 타 스터디 참고자료
 
