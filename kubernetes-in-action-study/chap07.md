@@ -130,7 +130,7 @@ kubectl describe secrets
 ```
 ```
 Name:        default-johny-mzcdevops
-Namespace:   deafult
+Namespace:   default
 Labes:       <none>
 Annotations: kubernets.io/service-account.name=default
              kubernets.io/service-account.uid=doyouwannabuildasnowman
@@ -156,8 +156,8 @@ env:
 ```
 
 ### 4. Secret 과연 안전한가?
-결론을 주관적인 의견을 통하여 전달하자면, 사용자의 차이가 아닌가 싶다. 
-아래는 개발자를 위한 쿠버네티스 책에서 발췌한 내용
+주관적인 의견은 사용자가 가지고 있는 오너쉽 관점 차이가 아닌가 싶다. 
+아래는 개발자를 위한 쿠버네티스 책에서 발췌한 내용:
 
 *적어도 쿠버네티스 1.8 버전에서는 암호적으로 안전하지는 않다. 보안 관점에서 살펴보면 값을 컨피그맵에 보관하는 것보다 시크릿의 제약적인 환경에 저장하는 편이 좀 더 낫다. 결정적으로 시크릿 데이터는 쿠버네티스 1.8 버전을 기준으로 쿠버네티스 기반 모듈인 etcd3.0에 평문 형태로저장된다.  etcd3.0 모듈은 시크릿 정보를 암호화 하거나 대칭 키를 사용해 보관 (및 접근제어)하지 않는다. 쿠버네티스 클러스터 운영 시 안전하지 않은 etcd 모듈이 쿠버네티스 클러스터 전체 보안에 취약점으로 노출돼 있음을 인지해야한다.*
 
