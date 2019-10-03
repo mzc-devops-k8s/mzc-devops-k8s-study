@@ -4,11 +4,11 @@
 하지만, 우리가 개발하고 운영하는 대부분의 모든 애플리케이션에는 설정 옵션이 필요하므로 쿠버네티스에는 어떤 방식으로 전달할 수 있는지에 대하여 알아보기로 하자!
 
 ## ConfigMap과 Secret은 뭘까요?
-- 쿠버네티스에서는 설정 옵션 자체를 변수로 관리해서 Pod가 생성될 때 참조할 수 있도록 하는 기능이 있는데 이것을 바로 우리는 **ConfigMap, Secret** 이라고 부른다. 
+- 쿠버네티스에서는 설정 옵션 자체를 변수로 관리해서 Pod가 생성될 때 참조할 수 있도록 하는 기능과 특정 외부 시스템에 액세스하기 위하여 필요한 인증 등이 있는데 이것을 바로 우리는 **ConfigMap, Secret** 이라고 부른다. 
 
 ## ConfigMap과 Secret은 왜 사용하게 되었을까?   
 - 컨테이너 안에 있는 설정 파일을 사용하는 것은 꽤나 까다롭다. 설정 파일을 컨테이너 이미지 자체에 구울 경우도 있고, 파일이 들어있는 볼륨을 컨테이너에 마운트 해야할 상황이 다가오기도 하는데, 이 이야기는 설정 옵션을 변경할 때 마다 이미지를 다시 만들어야한다는 뜻과 같다. ~~(귀찮아... 행봇님 대신 해주세요....)~~
-- 조금 더 와닿는 예를 들어보자면, 여러가지 이유로 인하여 사용자 입장에서는 컨테이너 이미지 내부에 API 키, 패스워드, 인증 토큰과 같은 개인 정보를 저장하고 싶지 않은 니즈가 있다. ~~(나만 그런가...)~~
+- 조금 더 와닿는 예를 들어보자면, 여러가지 이유로 인하여 사용자 (엔지니어)는 컨테이너 이미지 내부에 API 키, 패스워드, 인증 토큰과 같은 개인 정보를 저장하고 싶지 않은 니즈가 있다. ~~(나만 그런가...)~~
 
 ## ConfigMap 톺아보기
 ### 1. ConfigMap 소개 
@@ -109,10 +109,60 @@ kubectl create configmap my-config
   --from-file =config-opts/
   --from-file =some=thing
 ```
+## Secret 톺아보기
+### 1. Secret 소개 
+- 앞서 열심히 톺아본 ConfigMap 안에는 예민하고 보안에 신경을 곤두서야할 데이터는 없다. 거꾸로 이야기하면, 반대의 성격을 가진 데이터가 필연적으로 존재한다는 것이다. (개인 암호화 키, 인증서, 패스워드 기타 등등)
+- 우리는 이러한 중요한 정보를 저장하고 분류하기 위하여 Kubernetes에서는 Secret 이라는 오브젝트로 관리하며, ConfigMap과 마찬가지로, Key/Value 형태를 가지고 있다.
 
+### 2. Secret 사용 방법
+A. kubectl get secrets 커맨드를 통한 기본 Secret 리소스 조회
+```
+kubectl get secrets
+```
+```
+NAME                     TYPE                                   DATA      AGE
+default-johny-mzcdevops  kubernetes.io/service-account-token    3         39d
+```
 
+B. kubectl describe secrets 커맨드를 통한 기본 Secret 리소스 조회
+```
+kubectl describe secrets
+```
+```
+Name:        default-johny-mzcdevops
+Namespace:   deafult
+Labes:       <none>
+Annotations: kubernets.io/service-account.name=default
+             kubernets.io/service-account.uid=doyouwannabuildasnowman
+Type:        kubernets.io/service-account-token
+
+Data
+====
+ca.crt:    1234bytes
+namespace: 9bytes
+token:     starbucks
+```
+
+### 3. Secret 컨테이너 이미지에 노출 및 전달하기
+A. 환경변수
+ConfigMap과 마찬가지로 Pod 사양을 정의할 때 필수적으로 포함되어야 할 name과 image 외에도 env를 개별적으로 정의할 수 있다. 
+```
+env:
+  - name: DB_PASSWORD
+    valueForm:
+      secretKeyRef:
+        name: database-creds
+        Key: password.txt
+```
+
+### 4. Secret 과연 안전한가?
+결론을 주관적인 의견을 통하여 전달하자면, 사용자의 차이가 아닌가 싶다. 
+아래는 개발자를 위한 쿠버네티스 책에서 발췌한 내용
+
+*적어도 쿠버네티스 1.8 버전에서는 암호적으로 안전하지는 않다. 보안 관점에서 살펴보면 값을 컨피그맵에 보관하는 것보다 시크릿의 제약적인 환경에 저장하는 편이 좀 더 낫다. 결정적으로 시크릿 데이터는 쿠버네티스 1.8 버전을 기준으로 쿠버네티스 기반 모듈인 etcd3.0에 평문 형태로저장된다.  etcd3.0 모듈은 시크릿 정보를 암호화 하거나 대칭 키를 사용해 보관 (및 접근제어)하지 않는다. 쿠버네티스 클러스터 운영 시 안전하지 않은 etcd 모듈이 쿠버네티스 클러스터 전체 보안에 취약점으로 노출돼 있음을 인지해야한다.*
 
 참조:
-https://bcho.tistory.com/1267
-Kubernets in Action 도서
-개발자를 위한 쿠버네티스 도서
+- https://bcho.tistory.com/1267
+- Kubernets in Action 도서
+- 개발자를 위한 쿠버네티스 도서
+
