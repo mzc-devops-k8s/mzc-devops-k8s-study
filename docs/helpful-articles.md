@@ -14,6 +14,7 @@
 - Kubernetes all-in-one : https://github.com/SDSACT/coe-kubernetes
 - kubernetes architecture model: https://qiita.com/yosshi_/items/2db0a0e66a16711bfe5f?fbclid=IwAR2vfWuzGw0hP0rdJxM233WAU5MeV2P3N2qvQ3B0XsECvBmUw-SDRxwtUF0
 - Studying the Kubernetes Ingress system: https://www.joyfulbikeshedding.com/blog/2018-03-26-studying-the-kubernetes-ingress-system.html
+- Subicura (김충섭)님 Kubernetes 살펴보기: https://www.youtube.com/watch?v=WxzWXqTNdlw&t=1562s
 
 ## 타 스터디 참고자료
 
