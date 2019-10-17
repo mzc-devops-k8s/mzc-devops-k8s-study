@@ -13,8 +13,9 @@
 - 대규모 Kubernetes Cluster 구축기 : https://engineering.linecorp.com/ko/blog/building-large-kubernetes-cluster/?fbclid=IwAR2vqNGk2pcsRVIdJk2s1X5vS09B_hNsMQHQxASd04u7QTrtC-25HZr7Z6o
 - Kubernetes all-in-one : https://github.com/SDSACT/coe-kubernetes
 - kubernetes architecture model: https://qiita.com/yosshi_/items/2db0a0e66a16711bfe5f?fbclid=IwAR2vfWuzGw0hP0rdJxM233WAU5MeV2P3N2qvQ3B0XsECvBmUw-SDRxwtUF0
-- Studying the Kubernetes Ingress system: https://www.joyfulbikeshedding.com/blog/2018-03-26-studying-the-kubernetes-ingress-system.html
+- Studying the Kubernetes Ingress system : https://www.joyfulbikeshedding.com/blog/2018-03-26-studying-the-kubernetes-ingress-system.html
 - Subicura (김충섭)님 Kubernetes 살펴보기: https://www.youtube.com/watch?v=WxzWXqTNdlw&t=1562s
+- Amazon EKS and IAM Authentication : http://www.mitchyb.com/2018/06/amazon-eks-and-iam-authentication.html 
 
 ## 타 스터디 참고자료
 
