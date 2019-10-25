@@ -18,7 +18,7 @@
 - Studying the Kubernetes Ingress system : https://www.joyfulbikeshedding.com/blog/2018-03-26-studying-the-kubernetes-ingress-system.html
 - [번역] 쿠버네티스 네트워킹 이해하기: https://coffeewhale.com/k8s/network/2019/04/19/k8s-network-01/?fbclid=IwAR2900s-9wGuRjfr6RjPssc5aDP2Iiy46NU    NQ9N1YCQcNojxGD_1PZQhei8
 - k8s 네트워킹 이해하기: https://coffeewhale.com/k8s/network/2019/04/19/k8s-network-01/
-
+- Kubernetes Networking : https://www.slideshare.net/InfraEngineer/ss-186475759?fbclid=IwAR1jv4TgAvUs1M9BR6s_WAIMdkWQHkohfZFNDUv5jBBBwglQrWPrUK-0-xc
 
 ## Managed Kubernetes Service (Cloud Provider)
 
