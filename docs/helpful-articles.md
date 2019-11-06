@@ -11,7 +11,7 @@
 - kubernetes architecture model: https://qiita.com/yosshi_/items/2db0a0e66a16711bfe5f?fbclid=IwAR2vfWuzGw0hP0rdJxM233WAU5MeV2P3N2qvQ3B0XsECvBmUw-SDRxwtUF0
 - Subicura (김충섭)님 Kubernetes 살펴보기: https://www.youtube.com/watch?v=WxzWXqTNdlw&t=1562s
 - How kubernetes works : https://www.youtube.com/watch?v=daVUONZqn88
-
+- Kubernetes learning path: https://developer.ibm.com/series/kubernetes-learning-path/
 
 ## Kubernetes Networking
 
