@@ -23,7 +23,7 @@
 ## Managed Kubernetes Service (Cloud Provider)
 
 - Amazon EKS and IAM Authentication : http://www.mitchyb.com/2018/06/amazon-eks-and-iam-authentication.html
-
+- What to know before using Amazon EKS : https://medium.com/swlh/what-to-know-before-using-amazon-eks-3b32cc64f131
 
 ## How to use Kubernetes
 
