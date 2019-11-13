@@ -12,6 +12,7 @@
 - Subicura (김충섭)님 Kubernetes 살펴보기: https://www.youtube.com/watch?v=WxzWXqTNdlw&t=1562s
 - How kubernetes works : https://www.youtube.com/watch?v=daVUONZqn88
 - Kubernetes learning path: https://developer.ibm.com/series/kubernetes-learning-path/
+- K3s, minikube or microk8s : https://www.reddit.com/r/kubernetes/comments/be0415/k3s_minikube_or_microk8s/
 
 ## Kubernetes Networking
 
