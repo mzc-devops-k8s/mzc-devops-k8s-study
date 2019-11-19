@@ -26,6 +26,7 @@
 - Amazon EKS and IAM Authentication : http://www.mitchyb.com/2018/06/amazon-eks-and-iam-authentication.html
 - What to know before using Amazon EKS : https://medium.com/swlh/what-to-know-before-using-amazon-eks-3b32cc64f131
 - Amazon EKS cluster in 13 steps : https://medium.com/swlh/kubernetes-launching-a-full-eks-cluster-in-13-steps-more-or-less-59451d3b115c
+- Extending the EKS API: Manged Node Groups : https://aws.amazon.com/ko/blogs/containers/eks-managed-node-groups/
 
 ## How to use Kubernetes
 
