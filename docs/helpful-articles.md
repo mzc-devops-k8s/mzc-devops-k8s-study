@@ -32,7 +32,7 @@
 
 - 대규모 Kubernetes Cluster 구축기 : https://engineering.linecorp.com/ko/blog/building-large-kubernetes-cluster/?fbclid=IwAR2vqNGk2pcsRVIdJk2s1X5v    S09B_hNsMQHQxASd04u7QTrtC-25HZr7Z6o
 - KOPS를 이용해 테스팅 환경 구현:  http://woowabros.github.io/experience/2018/03/13/k8s-test.html
-
+- Kubecon + CloudNativeCon North America 2019 : https://www.youtube.com/playlist?list=PLj6h78yzYM2NDs-iu8WU5fMxINxHXlien
 
 ## 타 스터디 참고자료
 
