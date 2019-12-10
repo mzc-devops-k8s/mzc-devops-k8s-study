@@ -13,6 +13,7 @@
 - How kubernetes works : https://www.youtube.com/watch?v=daVUONZqn88
 - Kubernetes learning path: https://developer.ibm.com/series/kubernetes-learning-path/
 - K3s, minikube or microk8s : https://www.reddit.com/r/kubernetes/comments/be0415/k3s_minikube_or_microk8s/
+- A visual guide on troubleshooting Kubernetes deployments: https://learnk8s.io/troubleshooting-deployments?fbclid=IwAR2V_v_sy10RK4VDxedvrCqqesC0L_X8PoSLT0yIFWh6chq_5-fpmDc_UCY
 
 ## Kubernetes Networking
 
