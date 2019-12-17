@@ -54,5 +54,5 @@
 
 - kube-ps1 : https://github.com/jonmosco/kube-ps1
 - kubectx : https://github.com/ahmetb/kubectx
-
+- kubefwd : https://github.com/txn2/kubefwd
 
