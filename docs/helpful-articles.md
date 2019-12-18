@@ -44,6 +44,7 @@
 
 ## 기타
 
+- Kubernetes Cheat Sheet : https://intellipaat.com/blog/tutorial/devops-tutorial/kubernetes-cheat-sheet/?fbclid=IwAR3vp1ILHYfE519jY3v2ur2ZDxcKXLEe2LBV8Ly1e5exsIMJ0aJSQ0RNnxtM
 - minikube란?: https://medium.com/@cratios48/minikube-%EC%84%A4%EC%B9%98-%EB%B0%8F-%ED%99%9C%EC%9A%A9-4a63ddbc7fcb
 - Tucker의 goLang 프로그래밍: https://www.youtube.com/channel/UCZp_ftx6UB_32VfVmlS3o_A/videos
 - if KAKAO 발표 영상(mp4 주의) : https://mk.kakaocdn.net/dn/if-kakao/conf2019/conf_video_2019/1_101_01_m1.mp4
