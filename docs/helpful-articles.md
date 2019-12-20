@@ -22,6 +22,7 @@
 - k8s 네트워킹 이해하기: https://coffeewhale.com/k8s/network/2019/04/19/k8s-network-01/
 - Kubernetes Networking : https://www.slideshare.net/InfraEngineer/ss-186475759?fbclid=IwAR1jv4TgAvUs1M9BR6s_WAIMdkWQHkohfZFNDUv5jBBBwglQrWPrUK-0-xc
 - Kubernetes rbac, service account : https://blog.dudaji.com/kubernetes/2019/05/01/k8s-authorization-of-sa-with-rbac.html
+- Kubernetes Networking : https://www.slideshare.net/InfraEngineer/meetup2nd-v12
 
 ## Managed Kubernetes Service (Cloud Provider)
 
