@@ -53,6 +53,7 @@
 - ELB와 EBS의 아키텍처로 새각해보는 사용상 주의할 점 : https://speakerdeck.com/vcnc/elbwa-ebsyi-akitegceoro-saenggaghaeboneun-sayongsang-juyihal-jeomdeul?slide=32
 - Kubernetes Forum Seoul 2019 : https://www.youtube.com/playlist?list=PLj6h78yzYM2OxLtNu5THSdKUj5vC_Thco&fbclid=IwAR3JiMhyvrjxuzAbd62olC9POIRyD55ZmzmNXrLevjpe7H_K1CmjyWYDyvo
 - Argo Flux : https://www.weave.works/blog/argo-flux-join-forces
+- HA Cluster with kubespray : https://medium.com/better-programming/kubernetes-tips-ha-cluster-with-kubespray-69e5bb2fa444?source=facebookShare-ce63563d1ce4-1577507917&fbclid=IwAR2frdBwi_Ar2JIcsNE5eB2WWgdL0oZeNrHxJKHGBkEXxBH0IUiK0sf1Nqo&_branch_match_id=736032848191006207
 
 ## 유틸리티
 
