@@ -15,6 +15,7 @@
 - K3s, minikube or microk8s : https://www.reddit.com/r/kubernetes/comments/be0415/k3s_minikube_or_microk8s/
 - A visual guide on troubleshooting Kubernetes deployments: https://learnk8s.io/troubleshooting-deployments?fbclid=IwAR2V_v_sy10RK4VDxedvrCqqesC0L_X8PoSLT0yIFWh6chq_5-fpmDc_UCY
 - Kubernetes security best practices : https://blog.sqreen.com/kubernetes-security-best-practices/?fbclid=IwAR1FRU2PlfBoZca3CSO0Oumc4xXDDRvhB_RXHYLfbw0rT1uMQuVST9BVUiI
+- Kubernetes in 10 Min : https://medium.com/@sindhujacynixit/kubernetes-in-10-minutes-a-complete-guide-a9230124a02c
 
 ## Kubernetes Networking
 
