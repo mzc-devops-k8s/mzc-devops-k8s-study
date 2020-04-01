@@ -25,6 +25,7 @@
 - Kubernetes Networking : https://www.slideshare.net/InfraEngineer/ss-186475759?fbclid=IwAR1jv4TgAvUs1M9BR6s_WAIMdkWQHkohfZFNDUv5jBBBwglQrWPrUK-0-xc
 - Kubernetes rbac, service account : https://blog.dudaji.com/kubernetes/2019/05/01/k8s-authorization-of-sa-with-rbac.html
 - Kubernetes Networking : https://www.slideshare.net/InfraEngineer/meetup2nd-v12
+- Kubernetes Networking : https://medium.com/finda-tech/kubernetes-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%A0%95%EB%A6%AC-fccd4fd0ae6
 
 ## Managed Kubernetes Service (Cloud Provider)
 
